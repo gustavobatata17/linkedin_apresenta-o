@@ -1,0 +1,131 @@
+/*1- html elements 
+2- ids 
+3-class 
+4-data anime 
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/* html elements */
+body {
+  margin: 0;
+  background-color: rgb(255, 255, 255);
+
+}
+
+/*ids*/
+
+#apresentacao {
+  background-color: rgb(50, 76, 204);
+  padding: 5%;
+  align-items: center;
+}
+#img_avatar{
+  height: 25%;
+  width: 25%;
+  border-radius: 50%;
+}
+#img_avatar:hover{
+  width: 29%;
+  height: 29%;
+  transition: 0.5s;
+}
+
+#text-apresentacao {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+#alinhar_apresentacao{
+  display: flex;
+  justify-content: space-between;
+}
+#menu {
+  display: flex;
+  justify-content: center;
+}
+/*class*/
+.custom-icon {
+  width: 20%;
+  height: 20%;
+  font-size: 20%; /* Ajusta o tamanho do ícone */
+}
+
+.trabalhador{
+  width: 50%;
+  height: 50%;
+  padding: 10%;
+}
+.opcao_menu {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(14, 23, 197);
+  text-decoration: none;
+  padding: 14px 20px;
+  margin: 0 10px;
+  border-radius: 8px;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.opcao_menu:hover {
+  background-color: #413fc7;
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+.titulo {
+  font-family: "Lexend", sans-serif;
+  font-size: 500%;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgb(19, 20, 24);
+  
+}
+
+.sub_titulo {
+  font-family: "Chivo", sans-serif;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgb(19, 20, 24);
+}
+
+.img_apresentar {
+  width: 15%;
+  height: 15%;
+}
+.icone-linkedin{
+  color: white;
+  font-size: 750%;
+  margin-right: 35%;
+  margin-top: auto;
+  margin-bottom: auto;
+  transition: all 0.7s;
+}
+.icone-linkedin:hover{
+  color: white;
+  font-size: 950%;
+  margin-right: 25%;
+}
+/*data anime*/
+[data-anime] {
+  opacity: 0;
+  transition: 1s;
+}
+
+[data-anime="down"] {
+  transform: translate3d(0, -100%, 0);
+}
+
+[data-anime="up"] {
+  transform: translate3d(0, 100%, 0);
+}
+
+[data-anime="left"] {
+  transform: translate3d(-100%, 0, 0);
+}
+
+[data-anime="right"] {
+  transform: translate3d(50px, 0, 0);
+}
+
+[data-anime].animate {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
