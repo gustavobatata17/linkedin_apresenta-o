@@ -16,32 +16,26 @@
 
 <body>
     <!--Menu de direcionamento-->
-    <br>
-    <ul class="nav flex-left text-center justify-content-center ">
+    <ul id="menu_frontal" class="nav flex-left text-center justify-content-center sticky">
+        <li class="nav-item" data-anime="up">
+            <a class="nav-link" href="#sobre"><i class="bi bi-people-fill" aria-hidden="true"></i> Equipe </a>
+        </li>
         <li class="nav-item" data-anime="left">
-            <a class="nav-link active" aria-current="page" href="#inicio"><i class="bi bi-house" aria-hidden="true"></i>
+            <a class="nav-link" aria-current="page" href="#inicio"><i class="bi bi-house" aria-hidden="true"></i>
                 Inicio</a>
         </li>
-        <li class="nav-item" data-anime="up">
-            <a class="nav-link" href="#sobre"><i class="bi bi-people-fill" aria-hidden="true"></i>
-                Equipe </a>
-        </li>
-
         <li class="nav-item" data-anime="down">
-            <a class="nav-link" href="#curriculo"><i class="bi bi-list-ul" aria-hidden="true"></i>
-                Topicos </a>
+            <a class="nav-link" href="#curriculo"><i class="bi bi-list-ul" aria-hidden="true"></i> Topicos </a>
         </li>
         <li class="nav-item" data-anime="up">
-            <a class="nav-link" href="#arquiteto"><i class="bi bi-building" aria-hidden="true"></i>
-                Arquitetura </a>
+            <a class="nav-link" href="#arquiteto"><i class="bi bi-building" aria-hidden="true"></i> Arquitetura </a>
         </li>
         <li class="nav-item" data-anime="left">
-            <a class="nav-link" href="#Boas_praticas"><i class="bi bi-check2-circle" aria-hidden="true"></i>
-                Boas Praticas </a>
+            <a class="nav-link" href="#Boas_praticas"><i class="bi bi-check2-circle" aria-hidden="true"></i> Boas
+                Praticas </a>
         </li>
         <li class="nav-item" data-anime="down">
-            <a class="nav-link" href="#portfolio"><i class="bi bi-book" aria-hidden="true"></i>
-                Referencias</a>
+            <a class="nav-link" href="#portfolio"><i class="bi bi-book" aria-hidden="true"></i> Referencias</a>
         </li>
     </ul>
 
@@ -104,8 +98,8 @@
             <!-- Leticia-->
             <div class="col-md-6">
                 <div id="equipe" class="d-flex align-items-center">
-                    <img id="img_avatar" class="img-fluid shadow me-4" src="img/leticia_img.jpg"
-                        alt="Leticia img" data-anime="right">
+                    <img id="img_avatar" class="img-fluid shadow me-4" src="img/leticia_img.jpg" alt="Leticia img"
+                        data-anime="right">
                     <div class="texto_equipe" data-anime="up">
                         <h3>Leticia Aparecida Ceccon</h3>
                         <ul class="list-group list-group-flush fs-5">
@@ -156,11 +150,65 @@
             <div id="text-apresentacao">
                 <h1 class="titulo" data-anime="down">LinkedIn </h1>
                 <h2 class="sub_titulo" data-anime="up">Conectando oportunidades </h2>
-               </div>
-               <i class="bi bi-linkedin icone-linkedin"></i>
+            </div>
+            <i class="bi bi-linkedin icone-linkedin" data-anime="up"></i>
+        </div>
+    </section>
+    <section id="historia">
+        <br>
+        <h1 class="text-center" data-anime="down">História</h1>
+        <br>
+        <div class="timeline" data-anime="left">
+            <div class="timeline-item">
+                <div class="timeline-item-content">
+                    <h2>2003</h2>
+                    <p>A fundação do LinkedIn</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-item-content">
+                    <h2>O LinkedIn no Brasil</h2>
+                    <p>O LinkedIn expande suas operações para o Brasil</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-item-content">
+                    <h2>2015</h2>
+                    <p>Mudanças no LinkedIn</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-item-content">
+                    <h2>Compra do LinkedIn</h2>
+                    <p>Microsoft adquire o LinkedIn</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-item-content">
+                    <h2>2019</h2>
+                    <p>Novidades do LinkedIn em 2019</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-item-content">
+                    <h2>Atual</h2>
+                    <p>Estado atual do LinkedIn</p>
+                </div>
+            </div>
         </div>
     </section>
 
+    <section id="importancia">
+        <h1>a importância do LinkedIn</h1>
+    </section>
+    <section id="LinkedInVS">
+        <h1>LinkedinVS</h1>
+    </section>
     <script src="static/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="static/index.js"></script>
 </body>

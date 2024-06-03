@@ -1,3 +1,4 @@
+//animação,animation 
 const item = document.querySelectorAll("[data-anime]");
 
 const animeScroll = () => {
@@ -17,3 +18,15 @@ animeScroll();
 window.addEventListener("scroll", ()=>{
   animeScroll();
 })
+//menu
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  var menu = document.getElementById("menu_frontal");
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    menu.classList.add("sticky");
+  } else {
+    menu.classList.remove("sticky");
+  }
+}
+
