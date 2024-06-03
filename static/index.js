@@ -29,4 +29,7 @@ function scrollFunction() {
     menu.classList.remove("sticky");
   }
 }
-
+function qrcode(){
+  let qr = document.getElementById('qrcode_img')
+  qr.innerHTML = "<img class ='img_frame ' src='img/frame.png'>"
+}

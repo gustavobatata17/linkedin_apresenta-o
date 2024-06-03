@@ -151,53 +151,70 @@
                 <h1 class="titulo" data-anime="down">LinkedIn </h1>
                 <h2 class="sub_titulo" data-anime="up">Conectando oportunidades </h2>
             </div>
-            <i class="bi bi-linkedin icone-linkedin" data-anime="up"></i>
+            <i class="bi bi-linkedin icone-linkedin" onclick="qrcode()" data-anime="up"></i>
+           
         </div>
+        <div id="qrcode_img">
+
+            </div>
     </section>
-    <section id="historia">
+    <!-- his_top1 == first story topic // des_his_top1 == description of the first topic -->
+    <section id="history">
         <br>
         <h1 class="text-center" data-anime="down">História</h1>
         <br>
-        <div class="timeline" data-anime="left">
+        <div class="timeline" data-anime="up">
             <div class="timeline-item">
                 <div class="timeline-item-content">
-                    <h2>2003</h2>
-                    <p>A fundação do LinkedIn</p>
+                    <h2 >2003</h2 >
+                    <h4 class="histext" onclick="des_his_top1()">A fundação do LinkedIn</h4>
+                    <div id="his_top1">
+                    </div>
                 </div>
             </div>
 
             <div class="timeline-item">
                 <div class="timeline-item-content">
                     <h2>O LinkedIn no Brasil</h2>
-                    <p>O LinkedIn expande suas operações para o Brasil</p>
+                    <h4 class="histext" onclick="des_his_top2()">operações para o Brasil</h4>
+                    <div id="his_top2">
+                    </div>
                 </div>
             </div>
 
             <div class="timeline-item">
                 <div class="timeline-item-content">
                     <h2>2015</h2>
-                    <p>Mudanças no LinkedIn</p>
+                    <h4 class="histext" onclick="des_his_top3()">Mudanças no LinkedIn</h4>
+                    <div id="his_top3">
+                    </div>
                 </div>
             </div>
 
             <div class="timeline-item">
                 <div class="timeline-item-content">
                     <h2>Compra do LinkedIn</h2>
-                    <p>Microsoft adquire o LinkedIn</p>
+                    <h4 class="histext" onclick="des_his_top4()">Microsoft adquire o LinkedIn</h4>
+                    <div id="his_top4">
+                    </div>
                 </div>
             </div>
 
             <div class="timeline-item">
                 <div class="timeline-item-content">
                     <h2>2019</h2>
-                    <p>Novidades do LinkedIn em 2019</p>
+                    <h4 class="histext" onclick="des_his_top5()">Novidades do LinkedIn em 2019</h4>
+                    <div id="his_top5">
+                    </div>
                 </div>
             </div>
 
             <div class="timeline-item">
                 <div class="timeline-item-content">
                     <h2>Atual</h2>
-                    <p>Estado atual do LinkedIn</p>
+                    <h4 class="histext"  onclick="des_his_top6()">Estado atual do LinkedIn</h4>
+                    <div id="his_top6">
+                    </div>
                 </div>
             </div>
         </div>
@@ -211,6 +228,7 @@
     </section>
     <script src="static/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="static/index.js"></script>
+    <script src="static/history.js"></script>
 </body>
 
 </html>

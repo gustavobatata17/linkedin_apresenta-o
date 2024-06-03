@@ -10,6 +10,7 @@ body {
   background-color: rgb(255, 255, 255);
 
 }
+
 /*ids*/
 #menu_frontal{
   background-color: #0d78f2;
@@ -146,6 +147,25 @@ body {
   color: white;
   font-size: 950%;
   margin-right: 25%;
+}
+.img_his{
+  height: 25%;
+  width: 25%;
+  transition: all 0.8s;
+}
+.img_his:hover{
+  height: 65%;
+  width: 65%;
+}
+.histext{
+  transition: all 0.6s;
+}
+.histext:hover{
+   font-size: 175%;
+}
+.img_frame{
+  width: 65%;
+  height: 65%;
 }
 /*data anime*/
 [data-anime] {
