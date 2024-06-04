@@ -29,7 +29,13 @@ function scrollFunction() {
     menu.classList.remove("sticky");
   }
 }
+let g = 1;
 function qrcode(){
   let qr = document.getElementById('qrcode_img')
-  qr.innerHTML = "<img class ='img_frame ' src='img/frame.png'>"
+  g++;
+  if(g %2 == 0 ){
+    qr.innerHTML = ""
+  }else{
+    qr.innerHTML = "<img class='img_frame' src='img/frame.png'>"
+  }
 }
