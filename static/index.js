@@ -43,7 +43,7 @@ function qrcode(){
 function video_linkedin(){
   let video = document.getElementById('video_li')
   if(video.innerHTML == ""){
-    video.innerHTML = `<iframe class="iframe_reference" width="20%" height="20%" src="https://www.youtube.com/embed/tzNr3pVQopg?si=nvGZtLM475w79LUx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+    video.innerHTML = `<iframe class="iframe_reference" height="100%" width="40%"  src="https://www.youtube.com/embed/tzNr3pVQopg?si=nvGZtLM475w79LUx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
   }else{
     video.innerHTML = ""
   }
