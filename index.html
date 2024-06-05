@@ -15,6 +15,7 @@
 </head>
 
 <body>
+
     <!--Menu de direcionamento-->
     <ul id="menu_frontal" class="nav flex-left text-center justify-content-center sticky">
         <li class="nav-item" data-anime="up">
@@ -25,17 +26,13 @@
                 Apresentação</a>
         </li>
         <li class="nav-item" data-anime="down">
-            <a class="nav-link" href="#history"><i class="bi bi-list-ul" aria-hidden="true"></i> História </a>
-        </li>
-        <li class="nav-item" data-anime="up">
-            <a class="nav-link" href="#arquiteto"><i class="bi bi-building" aria-hidden="true"></i> Arquitetura </a>
-        </li>
-        <li class="nav-item" data-anime="left">
-            <a class="nav-link" href="#Boas_praticas"><i class="bi bi-check2-circle" aria-hidden="true"></i> Boas
-                Praticas </a>
+            <a class="nav-link" href="#history"><i class="bi bi-hourglass-split" aria-hidden="true"></i></i> História </a>
         </li>
         <li class="nav-item" data-anime="down">
-            <a class="nav-link" href="#portfolio"><i class="bi bi-book" aria-hidden="true"></i> Referencias</a>
+            <a class="nav-link" href="#importancia"><i class="bi bi-list-ul" aria-hidden="true"></i> importância </a>
+        </li>
+        <li class="nav-item" data-anime="down">
+            <a class="nav-link" href="#LinkedInVS"><i class="bi bi-arrow-through-heart" aria-hidden="true"></i></i> LinkedInVS </a>
         </li>
     </ul>
 
@@ -68,7 +65,7 @@
 
             <div class="col-md-6">
                 <div id="equipe" class="d-flex align-items-center">
-                    <img id="img_avatar" class="img-fluid shadow me-4" src="img/isa_img.jpg" alt="isa img"
+                    <img id="img_avatar" class="img-fluid shadow me-4" src="img/isa.jpg" alt="isa img"
                         data-anime="left">
                     <div class="texto_equipe" data-anime="up">
                         <h3> Isabelly Hach Dos Santos </h3>
@@ -152,12 +149,13 @@
                 <h2 class="sub_titulo" data-anime="up">Conectando oportunidades </h2>
             </div>
             <i class="bi bi-linkedin icone-linkedin" onclick="qrcode()" data-anime="up"></i>
-           
+
         </div>
         <div id="qrcode_img">
 
-            </div>
+        </div>
     </section>
+
     <!-- his_top1 == first story topic // des_his_top1 == description of the first topic -->
     <section id="history">
         <br>
@@ -166,7 +164,7 @@
         <div class="timeline" data-anime="up">
             <div class="timeline-item">
                 <div class="timeline-item-content">
-                    <h2 >2003</h2 >
+                    <h2>2003</h2>
                     <h4 class="histext" onclick="des_his_top1()">A fundação do LinkedIn</h4>
                     <div id="his_top1">
                     </div>
@@ -212,7 +210,7 @@
             <div class="timeline-item">
                 <div class="timeline-item-content">
                     <h2>Atual</h2>
-                    <h4 class="histext"  onclick="des_his_top6()">Estado atual do LinkedIn</h4>
+                    <h4 class="histext" onclick="des_his_top6()">Estado atual do LinkedIn</h4>
                     <div id="his_top6">
                     </div>
                 </div>
@@ -221,7 +219,7 @@
             <div class="timeline-item">
                 <div class="timeline-item-content">
                     <h2>hackers e o Linkedin</h2>
-                    <h4 class="histext"  onclick="des_his_top7()">Segurança?</h4>
+                    <h4 class="histext" onclick="des_his_top7()">Segurança?</h4>
                     <div id="his_top7">
                     </div>
                 </div>
@@ -230,14 +228,153 @@
     </section>
 
     <section id="importancia">
-        <h1>a importância do LinkedIn</h1>
+        <div>
+            <h1 class="text-center" data-anime="down"><strong>A importância do LinkedIn</strong> </h1>
+
+            <div>
+                <div class="timeline" data-anime="up">
+                    <div class="timeline-item">
+                        <div class="timeline-item-content">
+                            <h4>O LinkedIn é a maior rede social profissional do mundo, essencial para conectar
+                                profissionais, buscar oportunidades de emprego, encontrar colaboradores e ampliar redes
+                                de contatos.
+                            </h4>
+                            <h4 class="histext" onclick="des_imp_top1()"><strong>+</strong></h4>
+
+                            <div id="imp_top1">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-item-content">
+                            <h2>Vantagens do perfil Linkedin</h2>
+
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-item-content">
+                            <h4 class="histext" onclick="des_imp_top2()">Ter mais visibilidade</h4>
+                            <div id="imp_top2">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-item-content">
+                            <h4 class="histext" onclick="des_imp_top3()">Ficar informado sobre as oportunidades de
+                                emprego</h4>
+                            <div id="imp_top3">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-item-content">
+                            <h4 class="histext" onclick="des_imp_top4()">Fazer networking com estudantes e profissionais
+                            </h4>
+                            <div id="imp_top4">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-item-content">
+                            <h4 class="histext" onclick="des_imp_top5()">Aumentar as chances de conseguir um emprego ou
+                                estágio
+                            </h4>
+                            <div id="imp_top5">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+    </section>
     </section>
     <section id="LinkedInVS">
-        <h1>LinkedinVS</h1>
+        <<h1 class="text-center" data-anime="down">LinkedinVS</h1>
+            <div class="timeline" data-anime="up">
+                <div class="timeline-item">
+                    <div class="timeline-item-content">
+                        <h2 class="histext" onclick="des_vs_top1()">Gupy</h2>
+                        <div id="vs_top1">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-item-content">
+                        <h2 class="histext" onclick="des_vs_top2()">CIEE</h2>
+                        <div id="vs_top2">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-item-content">
+                        <h2 class="histext" onclick="des_vs_top3()">Empregos.com.br</h2>
+                        <div id="vs_top3">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-item-content">
+                        <h2 class="histext" onclick="des_vs_top4()">Trabalha Brasil</h2>
+                        <div id="vs_top4">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-item-content">
+                        <h2 class="histext" onclick="des_vs_top5()">99jobs</h2>
+                        <div id="vs_top5">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-item-content">
+                        <h2 class="histext" onclick="des_vs_top6()">Indeed</h2>
+                        <div id="vs_top6">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-item-content">
+                        <h2 class="histext" onclick="des_vs_top7()">Infojobs</h2>
+                        <div id="vs_top7">
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-item-content">
+                        <h2 class="histext" onclick="des_vs_top8()">Deficiente online</h2>
+                        <div id="vs_top8">
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-item-content">
+                        <h2 class="histext" onclick="des_vs_top9()">Catho</h2>
+                        <div id="vs_top9">
+                        </div>
+                    </div>
+                </div> 
+            </div>
     </section>
+    
     <script src="static/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="static/index.js"></script>
     <script src="static/history.js"></script>
+    <script src="static/import.js"></script>
+    <script src="static/vs.js"></script>
+
 </body>
 
 </html>
