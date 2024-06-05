@@ -45,7 +45,21 @@ body {
   display: flex;
   justify-content: center;
 }
+#references{
+ background-color: #0d78f2;
+ padding: 2%;
+ color: #fff;
+}
 /*class*/
+.icon_vs{
+ transition: all 0.5s;
+  height: 15%;
+  width: 15%;
+}
+.icon_vs:hover{
+  height: 25%;
+  width: 25%;
+}
 .timeline {
   position: relative;
   max-width: 800px;
@@ -167,6 +181,25 @@ body {
   width: 65%;
   height: 65%;
 }
+.iframe_reference{
+  align-items: center;
+  justify-content: center;
+}
+.li_reference{
+  font-size: 125%;
+  transition: all 0.5s;
+}
+.li_reference:hover{
+  font-size: 150%;
+}
+.li_reference_a{
+  color: #fff;
+  font-size: 125%;
+  transition: all 0.5s;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
 /*data anime*/
 [data-anime] {
   opacity: 0;
